@@ -1,0 +1,15 @@
+.greatings_container{
+    background-color: violet;
+    display: flex;
+    justify-content: space-between;
+
+    &_title1{
+        background-color: greenyellow;
+    }
+    &_title2{
+        background-color: green;
+    }
+    &_title3{
+        background-color: blue;
+    }
+}
