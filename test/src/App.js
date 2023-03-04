@@ -1,10 +1,11 @@
 import React from "react";
+import Container from "./components/Container";
 import Greatings from "./components/Greatings";
 
 function App(props) {
     return (
         <>
-            <h1>My awesome application</h1>
+            <Container />
             <Greatings name="Elio" />
         </>
 
