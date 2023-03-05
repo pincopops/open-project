@@ -1,13 +1,13 @@
 import React from "react";
 import "./components_scss/_App.scss";
-import Container from "./components/Container";
 import Greatings from "./components/Greatings";
+import Navbar from "./components/Navbar";
 
 
 function App(props) {
     return (
         <div id="main-container">
-            <Container />
+            <Navbar />
             <Greatings name="Elio" />
 
         </div>
