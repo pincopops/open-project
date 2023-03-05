@@ -4,7 +4,7 @@ import "../components_scss/_Navbar.scss";
 function Navbar() {
     return (
         <div className="navbar-container">
-            <h1>Personal Site App</h1>
+            <i><h1>Personal Site App</h1></i>
             <div className="navbar-container-links">
                 <a href="/">Home</a>
                 <a href="/">Links</a>
