@@ -7,17 +7,21 @@ function List(props) {
     const [list, setList] = useState([]);
     const [value, setValue] = useState("");
 
+    let tempArr = list;
+
     const handleListAdd = () => {
-        let tempArr = list;
         tempArr.push(value);
         setList(tempArr);
         setValue("");
     }
 
     const handleListRemove = (index) => {
-        let temp = list.filter((item,i) => i !== index);
-        setList(temp);
+        console.log(tempArr);
+        tempArr.pop()
+        setValue(value)
+
     }
+
 
 
     return (
