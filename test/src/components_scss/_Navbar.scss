@@ -1,6 +1,11 @@
 .navbar-container{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 2px solid maroon;
+
+    &-title{
+        font-family: Arial, Helvetica, sans-serif;
+    }
 
     &-links{
         align-self: center;
@@ -20,4 +25,11 @@
             color: maroon;
         }
     }
+}
+
+.navbar-horizontal-rule{
+   background-color: maroon; 
+   height: 0.3rem;
+   width: 100%;
+
 }

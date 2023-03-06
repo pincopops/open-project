@@ -3,15 +3,17 @@ import "../components_scss/_Navbar.scss";
 
 function Navbar() {
     return (
-        <div className="navbar-container">
-            <i><h1>Personal Site App</h1></i>
-            <div className="navbar-container-links">
-                <a href="/">Home</a>
-                <a href="/">Links</a>
-                <a href="/">Logout</a>
+        <>
+            <div className="navbar-container">
+                <i><h1 className="navbar-container-title">Personal Site App</h1></i>
+                <div className="navbar-container-links">
+                    <a href="/">Home</a>
+                    <a href="/">Links</a>
+                    <a href="/">Logout</a>
+                </div>
             </div>
-
-        </div>
+            <div className="navbar-horizontal-rule"></div>
+        </>
     )
 }
 

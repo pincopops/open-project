@@ -19,6 +19,7 @@ function Counter() {
 
     return (
         <>
+            <h3 className="counter-title">This is the counter you were looking for</h3>
             <span>You've clicked: 
                 <span className="counter-field">{count} {count <= 1 ? "time" : "times"}</span>
                 <button onClick={handleCounterincrement}>Increment</button>
